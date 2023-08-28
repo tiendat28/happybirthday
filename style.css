@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: rgb(255, 218, 232);
+    background: rgb(110, 246, 216);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,13 +67,14 @@ body{
 }
 .heartItem.item1 img{
     width: 40px;
+    transform: translateY(-10px);
 }
 .heartItem.item2 img{
     width: 50px;
     transform: translateY(-10px);
 }
 .heartItem.item3 img{
-    width: 60px;
+    width: 50px;
     transform: translateY(-20px);
 }
 .heartItem::before{
@@ -99,7 +100,7 @@ body{
 .progress{
     width: 0px;
     height: 100%;
-    background-color: rgb(244,118,121);
+    background-color: rgb(110, 246, 216);
     left: 0;
     transition: 0.1s;
 }
@@ -117,13 +118,13 @@ body{
 }
 .loading .textLoad{
     font-family: 'Roboto', sans-serif;
-    color: rgb(244,118,121);
+    color: rgb(110, 246, 216);
     font-family: 500;
     font-size: 20px;
     text-transform: uppercase;
 }
 .loading h2 .cricle1, .cricle2, .cricle3{
-    color: rgb(244,118,121);
+    color: rgb(110, 246, 216);
     opacity: 0;
 }
 .cricle1{
@@ -193,7 +194,7 @@ body{
     width: 40px;
     height: 30px;
     border-radius: 10px;
-    background-color: rgb(244,118,121);
+    background-color: rgb(110, 246, 216);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,7 +209,7 @@ body{
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: rgb(244,118,121) transparent transparent transparent;
+    border-color: rgb(110, 246, 216) transparent transparent transparent;
 }
 .heartBox .heart{
     position: relative;
